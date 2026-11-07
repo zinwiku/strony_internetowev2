@@ -1,0 +1,94 @@
+body {
+    background-color: rgba(243, 248, 248, 0.966);
+    color:rgb(46, 183, 183)
+}
+
+#naglowek{
+    background-color: rgb(0, 255, 208);
+    color: darkslategrey;
+    text-align: center;
+    padding: 30px;
+    font-family: "Arial", sans-serif;
+}
+
+#naglowek h1 {
+    font-size: 58px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#naglowek p {
+    font-size: 15px;
+    font-style:italic ;
+    color:green;
+}
+
+#baner {
+    background-image:url("https://fastly.picsum.photos/id/274/1200/300.jpg?hmac=Y-OHlcXeMjJuAwDJx9msV45a8zLaPtHpu6FI-PPxUOg") ;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    text-align: center;
+    padding: 60px 20px;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#baner h2 {
+    font-size:42px;
+    font-weight:bolid;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    word-spacing: 8px;
+}
+
+#baner p {
+    font-size: 22px;
+}
+/* Sekcja treści */
+#tresc {
+    width: 100%;                  /* pełna szerokość */
+    background-color: #ecf0f1;   /* jasne szare tło */
+    padding: 20px 0;
+    min-height: 300px;
+}
+
+/* Każdy wpis wygląda jak post z Facebooka */
+.wpis {
+    width: 80%;                   /* 80% szerokości rodzica */
+    margin: 15px auto;            /* auto = wyśrodkowanie */
+    background-color: #ffffff;
+    border-radius: 8px;           /* zaokrąglone rogi */
+    padding: 15px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* delikatny cień */
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.wpis .autor {
+    font-weight: bold;
+    font-size: 16px;
+    color: #1a1a2e;
+    margin-bottom: 2px;
+}
+
+.wpis .data {
+    font-size: 12px;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.wpis .tekst {
+    font-size: 15px;
+    color: #2c3e50;
+    line-height: 1.6;             /* komfortowa wysokość linii */
+    margin-bottom: 12px;
+}
+
+.wpis .reakcje {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    color: #3498db;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
